@@ -1,0 +1,16 @@
+version: '2'
+services:
+ ubuntu-base:
+  build: .
+  container_name: vanilla_ubuntu
+  ports:
+   - "9080:22"
+  networks:
+   static-network:
+    ipv4_address: 172.20.128.2
+networks:
+ static-network:
+  ipam:
+   config:
+    - subnet: 172.20.0.0/16
+      ip_range: 172.28.5.0/24
