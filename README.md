@@ -3,7 +3,7 @@ A template to learn or test Ansible scripts using local docker container as inve
 
 Clone this repository and modify the files.
 
-# Install Ansible using Virtual Env (Please
+# Install Ansible using Virtual Env
 [Recommended] Create a virtual environment to install ansible. 
 (Refer this [tutorial](https://serversforhackers.com/c/an-ansible2-tutorial) )
 ```
