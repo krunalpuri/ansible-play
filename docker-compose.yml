@@ -5,6 +5,7 @@ services:
   container_name: vanilla_ubuntu
   ports:
    - "9080:22"
+   - "9081:80"
   networks:
    static-network:
     ipv4_address: 172.20.128.2
@@ -13,6 +14,7 @@ services:
   container_name: vanilla_ubuntu_2
   ports:
    - "9090:22"
+   - "9091:80"
   networks:
    static-network:
     ipv4_address: 172.20.128.3
