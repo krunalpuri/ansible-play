@@ -44,6 +44,7 @@ ssh 172.20.128.3
 sh run-ansible-playbook.sh
  ```
 
-
+# Examples
+The example folder contains few examples from the [tutorial](https://serversforhackers.com/c/an-ansible2-tutorial) 
 
 
