@@ -33,10 +33,10 @@ docker-compose up --build -d
 
 # Create a Host file for ansible inventory
 The host file contains all ansible inventory hostnames.
-To add SSH fingerprint of each inventory inside known_hosts file, simple ssh into them individually
+To add SSH fingerprint of each inventory inside the known_hosts file, ssh into each of them.
 ```
 ssh 172.20.128.2
-ssh 172.20.128.2
+ssh 172.20.128.3
 ```
 
 # Run the script to test Ansible on Docker Container
