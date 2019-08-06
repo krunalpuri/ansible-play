@@ -8,6 +8,14 @@ services:
   networks:
    static-network:
     ipv4_address: 172.20.128.2
+ ubuntu-base-2:
+  build: .
+  container_name: vanilla_ubuntu_2
+  ports:
+   - "9090:22"
+  networks:
+   static-network:
+    ipv4_address: 172.20.128.3
 networks:
  static-network:
   ipam:
